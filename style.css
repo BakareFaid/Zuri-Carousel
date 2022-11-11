@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+#image {
+  width: 50%;
+  height: 50%;
+}
+button {
+  display: none;
+}
+.back {
+  position: relative;
+  bottom: 160px;
+  left: 80px;
+  font-size: 50px;
+}
+.fore {
+  position: relative;
+  bottom: 160px;
+  right: 80px;
+  font-size: 50px;
+}
+
+#choose:hover button {
+  display: inline-block;
+}
